@@ -26,6 +26,12 @@ const themeScript = `
 export const metadata: Metadata = {
   title: "BridgeKit - Cross-Chain USDC Bridge",
   description: "Bridge USDC between Base Sepolia and Ethereum Sepolia",
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+    maximumScale: 5,
+    userScalable: true,
+  },
 };
 
 export default function RootLayout({

@@ -29,7 +29,7 @@ const arcTestnet = {
 } as const;
 
 const config = getDefaultConfig({
-  appName: "Seamless",
+  appName: "BridgeKit",
   projectId: process.env.NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID || "YOUR_PROJECT_ID",
   chains: [baseSepolia, sepolia, arcTestnet],
   ssr: true,
